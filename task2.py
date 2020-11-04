@@ -30,8 +30,8 @@ name= (input("Enter a name")).strip()
 
 for i in nameList:
     if name in nameList:
-        print("That name is in the list")
+        print("That name is on the list")
         break
 
 else:
-    print("That name is not in the list")
+    print("That name is not on the list")
