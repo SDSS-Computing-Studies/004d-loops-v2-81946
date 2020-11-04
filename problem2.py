@@ -40,4 +40,4 @@ x= str(x)
 y= factorial
 y= str(y)
 
-print(x  +' ' + "is"  +' ' + y + ' '  +"where" + ' '+ x  +' ' + "is the integer entered and" + ' '+  y  +' ' + "is the calculated answer")
+print(x + "!" + ' ' + "is" + ' ' + y)
