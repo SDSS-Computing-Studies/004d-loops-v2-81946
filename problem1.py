@@ -22,3 +22,18 @@ enter a number:4
 ****
 
 """
+
+h= input("Enter height of box:")
+w= input("Enter width of box:")
+
+h= int(h)
+w= int(w)
+
+print(w*"*")
+
+y= w-2
+x= h-2
+for i in range(0, x):
+    print("*" + y*"*" + "*")
+
+print(w*"*")

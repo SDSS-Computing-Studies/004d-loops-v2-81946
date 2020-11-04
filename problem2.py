@@ -26,3 +26,18 @@ example:
 Enter a number: 4
 4! is 24
 """
+import math
+
+x= input("Enter a number:")
+x= int(x)
+factorial = 1
+
+for i in range(1,x + 1):
+    factorial = factorial*i
+
+
+x= str(x)
+y= factorial
+y= str(y)
+
+print(x  +' ' + "is"  +' ' + y + ' '  +"where" + ' '+ x  +' ' + "is the integer entered and" + ' '+  y  +' ' + "is the calculated answer")
