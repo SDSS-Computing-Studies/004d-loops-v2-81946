@@ -19,7 +19,7 @@ Enter number:4
 """
 import math
 
-x= input("Enter int number:")
+x= input("Enter number:")
 x= int(x)
 
 for i in range(1, 12):
